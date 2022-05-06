@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  parser:
+    build : .
+
+  manual:
+      image: 019c4ad038ea3346f121f993f977b98826b600a7245e30feeb1c9ae894d541af
+
+  archive:
+      image: d7034c9b5659b75dc981f0dac0ddc433645e8ba12f5ce1583f7303b48ae545a5

@@ -1,0 +1,19 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=5000 --max-semi-space-size=5000 Main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "microjob": "^0.7.0",
+    "node-schedule": "^2.1.0",
+    "puppeteer": "^13.5.2",
+    "threads": "^1.7.0"
+  }
+}
