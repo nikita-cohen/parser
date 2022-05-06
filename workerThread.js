@@ -55,7 +55,7 @@ async function parseData(url, maxNum, num) {
                 obj.title = brand[0] + " " + u.name + " " + category[0] + " manual";
 
                  //console.log(obj)
-                 axios.post("http://localhost:8099/manual/", obj)
+                 axios.post("https://search.findmanual.guru/manual/", obj)
                      .then(data => console.log("ok " + index))
                      .catch(e => console.log(e));
             })
